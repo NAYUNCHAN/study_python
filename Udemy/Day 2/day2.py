@@ -37,4 +37,17 @@ print(age + 1)
 #TypeError, Checking and Conversion
 # Q1: print("Number of letters in your name: " + len(input("Enter Your name")) 
 #Answer
-print("Number of letters in your name: " + str(len(input("Enter Your name "))))
+#print("Number of letters in your name: " + str(len(input("Enter Your name "))))
+
+
+#f-string
+#score = 1
+#print(f"your score is = {score}")
+
+#final Project (Tip Calculator)
+# print("Welcome to the tip calculator")
+# total_bill=float(input("What was the total bill?"))
+# tip_percent=int(input("How much tip would you like to give? 10, 12, or 15?"))
+# split_tip=int(input("How many people to split the bill? "))
+# ans=float((total_bill*(tip_percent/100)+total_bill)/split_tip)
+# print(f"Each person should pay: {round(ans, 2)}")

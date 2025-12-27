@@ -38,9 +38,20 @@
 # print(f"Your final bill is ${bill}")
 
 #Trasure Game
-print("Welcome to Treasure Island. Your mission is to find the treasure")
-turn=input("Left or Right? ")
-if turn == "Right" or "right" and 'R' or 'r':
-    print("Game Over")
-elif turn == "Left" or "left" and 'L' or 'l':
-    print("Yes")
+print("Welcome to Treasure Island.")
+print(" Your mission is to find the treasure")
+choice1=input("left or right? ").lower()
+if choice1 == "left":
+    print("good job")
+    choice2=input("swim or wait ").lower()
+    if choice2 == "wait":
+        print("good job")
+        choice3=input("Which door? Red? blue? or Yellow ").lower()
+        if choice3=="yellow":
+            print("You Win")
+        else:
+            print("Game over")
+    else:
+        print("Game over")
+else:
+    print("Game over")

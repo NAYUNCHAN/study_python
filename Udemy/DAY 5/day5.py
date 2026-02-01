@@ -76,28 +76,31 @@ FizzBuzz
 #         print(i)
 
 
+
 #py비밀번호 생성기
-import random as rd
+# import random as rd
 
-letters=['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']
-numbers=['0','1','2','3','4','5','6','7','8','9']
-symbols=['!','#','$','%','&','(',')','*','+']
+# letters=['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']
+# numbers=['0','1','2','3','4','5','6','7','8','9']
+# symbols=['!','#','$','%','&','(',')','*','+']
 
-print("Welcome to the PyPassword Generator!")
-nr_let=int(input("How many letters would you like in your password?\n"))
-nr_sym=int(input(f"How many symbols would you like?\n"))
-nr_num=int(input(f"How many numbers would you like?\n"))
+# print("Welcome to the PyPassword Generator!")
+# nr_let=int(input("How many letters would you like in your password?\n"))
+# nr_sym=int(input(f"How many symbols would you like?\n"))
+# nr_num=int(input(f"How many numbers would you like?\n"))
 
-#Easy Level
-password=[]
-for i in range(1,nr_let+1):
-    password.append(letters[rd.randrange(0,len(letters))])
+# #Easy Level
+# password=[]
+# for i in range(1,nr_let+1):
+#     password.append(letters[rd.randrange(0,len(letters))])
 
-for i in range(1,nr_sym+1):
-    password.append(symbols[rd.randrange(0,len(symbols))])
+# for i in range(1,nr_sym+1):
+#     password.append(symbols[rd.randrange(0,len(symbols))])
 
-for i in range(1,nr_num+1):
-    password.append(numbers[rd.randrange(0,len(numbers))])
+# for i in range(1,nr_num+1):
+#     password.append(numbers[rd.randrange(0,len(numbers))])
 
-for i in password:
-    print(i,end='')
+# for i in password:
+#     print(i,end='')
+
+
